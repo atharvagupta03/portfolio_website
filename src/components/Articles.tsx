@@ -1,40 +1,18 @@
 const Articles = () => {
   const articles = [
     {
-      title: "Building Production RAG Systems: Lessons Learned",
-      date: "2024-01-15",
-      excerpt: "A deep dive into the challenges and solutions for deploying RAG systems at scale, including vector database optimization and prompt engineering strategies.",
-      link: "#"
+      title: "Train Your AI to Read the Docs So You Don’t Have To.",
+      date: "2025-08-04",
+      excerpt:
+        "Stop dumping everything into prompts. This article breaks down how Retrieval-Augmented Generation (RAG) turns your static files into searchable, answer-ready context — with working code and real-world examples.",
+      link: "https://www.medium.com"
     },
     {
-      title: "Fine-tuning LLMs: When and How",
-      date: "2023-12-08",
-      excerpt: "Comprehensive guide to different fine-tuning approaches, from LoRA to full parameter tuning, with practical examples and performance comparisons.",
-      link: "#"
-    },
-    {
-      title: "The Future of Multi-Modal AI",
-      date: "2023-11-22",
-      excerpt: "Exploring the convergence of text, image, and audio processing in large language models and the implications for next-generation AI applications.",
-      link: "#"
-    },
-    {
-      title: "Evaluating RAG Performance: Metrics That Matter",
-      date: "2023-10-30",
-      excerpt: "Beyond traditional metrics: How to properly evaluate retrieval-augmented generation systems using context relevance, faithfulness, and answer accuracy.",
-      link: "#"
-    },
-    {
-      title: "Open Source LLM Landscape: A Technical Overview",
-      date: "2023-09-14",
-      excerpt: "Comprehensive analysis of open-source language models, their capabilities, licensing considerations, and deployment strategies for enterprise use.",
-      link: "#"
-    },
-    {
-      title: "Knowledge Graphs Meet LLMs: Hybrid Approaches",
-      date: "2023-08-25",
-      excerpt: "Combining symbolic knowledge representation with neural language models for enhanced reasoning capabilities and factual accuracy.",
-      link: "#"
+      title: "Prompt Engineering Is a Superpower — If You Know How to Test It",
+      date: "2025-08-05",
+      excerpt:
+        "Writing better prompts isn’t guesswork — it’s a skill you can learn and test. This article breaks down how to structure powerful prompts, evaluate responses, and iterate like a pro. Includes practical frameworks, test cases, and real examples.",
+      link: "https://www.medium.com"
     }
   ];
 
@@ -44,18 +22,18 @@ const Articles = () => {
         <h2 className="font-heading font-bold text-4xl md:text-5xl mb-16 text-center text-section-primary-foreground">
           Articles
         </h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {articles.map((article, index) => (
             <article
               key={index}
               className="p-6 bg-section-secondary text-section-secondary-foreground border border-gray-medium hover:scale-[1.02] transition-all duration-300"
             >
               <div className="font-body text-xs text-muted-foreground mb-3">
-                {new Date(article.date).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
+                {new Date(article.date).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
                 })}
               </div>
               <h3 className="font-heading font-semibold text-lg mb-3 leading-tight">
@@ -66,7 +44,7 @@ const Articles = () => {
               </p>
               <a
                 href={article.link}
-                className="font-body text-sm underline hover:no-underline transition-all"
+                className="font-body text-sm underline font-bold hover:no-underline transition-all"
               >
                 Read more
               </a>

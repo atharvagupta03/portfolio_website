@@ -4,22 +4,22 @@ const Contact = () => {
   const socialLinks = [
     {
       name: 'Email',
-      href: 'mailto:ai.engineer@example.com',
+      href: 'mailto:toce.atharva@gmail.com',
       icon: Mail
     },
     {
       name: 'GitHub',
-      href: 'https://github.com/username',
+      href: 'https://github.com/atharvagupta03',
       icon: Github
     },
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/username',
+      href: 'https://linkedin.com/in/atharvagupta03',
       icon: Linkedin
     },
     {
       name: 'Twitter',
-      href: 'https://twitter.com/username',
+      href: 'https://twitter.com/atharvagupta03',
       icon: Twitter
     }
   ];
@@ -33,7 +33,7 @@ const Contact = () => {
           </h2>
           
           <p className="font-body text-lg mb-12 text-muted-foreground">
-            Let's discuss AI, collaborate on projects, or explore new opportunities.
+            Let's explore new opportunities, discuss AI, or collaborate on projects.
           </p>
           
           <div className="flex justify-center gap-8">

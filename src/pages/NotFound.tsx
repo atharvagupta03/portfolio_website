@@ -6,7 +6,7 @@ const NotFound = () => {
 
   useEffect(() => {
     console.error(
-      "404 Error: User attempted to access non-existent route:",
+      "404 Error: Shayad yeh fatt gaya portfolio website. koi nahi, trying to fix it. If you see this, please mail  - toce.atharva@gmail.com",
       location.pathname
     );
   }, [location.pathname]);
