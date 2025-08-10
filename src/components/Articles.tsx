@@ -1,11 +1,11 @@
 const Articles = () => {
   const articles = [
     {
-      title: "Train Your AI to Read the Docs So You Don’t Have To.",
-      date: "2025-08-04",
+      title: "RAG (Retrieval-Augmented Generation): The AI World’s Best-Kept Secret Revealed",
+      date: "2025-08-10",
       excerpt:
-        "Stop dumping everything into prompts. This article breaks down how Retrieval-Augmented Generation (RAG) turns your static files into searchable, answer-ready context — with working code and real-world examples.",
-      link: "https://www.medium.com"
+        "Discover how Retrieval-Augmented Generation (RAG) empowers AI to access your unique data—like documents, FAQs, and reports—making it smarter and more accurate. This article explains the why and how of RAG with simple analogies, real-world use cases, and a hands-on Python example to get you started.",
+      link: "https://medium.com/@atharva-ai/rag-retrieval-augmented-generation-the-ai-worlds-best-kept-secret-revealed-72a9c3849a69"
     },
     {
       title: "Prompt Engineering Is a Superpower — If You Know How to Test It",
@@ -46,7 +46,7 @@ const Articles = () => {
                 href={article.link}
                 className="font-body text-sm underline font-bold hover:no-underline transition-all"
               >
-                Read more
+                Medium Link
               </a>
             </article>
           ))}
