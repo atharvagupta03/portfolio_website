@@ -4,14 +4,14 @@ const Articles = () => {
       title: "RAG (Retrieval-Augmented Generation): The AI World’s Best-Kept Secret Revealed",
       date: "2025-08-10",
       excerpt:
-        "Discover how Retrieval-Augmented Generation (RAG) empowers AI to access your unique data—like documents, FAQs, and reports—making it smarter and more accurate. This article explains the why and how of RAG with simple analogies, real-world use cases, and a hands-on Python example to get you started.",
+        "Discover how Retrieval-Augmented Generation (RAG) empowers AI to access your unique data like documents, FAQs, and reports making it smarter and more accurate. This article explains the why and how of RAG with simple analogies, real world use cases, and a hands on Python example to get you started.",
       link: "https://medium.com/@atharva-ai/rag-retrieval-augmented-generation-the-ai-worlds-best-kept-secret-revealed-72a9c3849a69"
     },
     {
       title: "Prompt Engineering Is a Superpower — If You Know How to Test It",
       date: "2025-08-05",
       excerpt:
-        "Writing better prompts isn’t guesswork — it’s a skill you can learn and test. This article breaks down how to structure powerful prompts, evaluate responses, and iterate like a pro. Includes practical frameworks, test cases, and real examples.",
+        "Writing better prompts isn’t guesswork. It’s a skill you can learn and test. This article breaks down how to structure powerful prompts, evaluate responses, and iterate like a pro. Includes practical frameworks, test cases, and real examples.",
       link: "https://www.medium.com"
     }
   ];
