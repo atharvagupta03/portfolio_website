@@ -12,9 +12,9 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
               <p className="font-body text-lg md:text-xl leading-relaxed text-section-primary-foreground">
-                Hi, I’m Atharva — an AI Engineer crafting intelligent systems with curiosity and code.
+                Hi, I’m Atharva. An AI Engineer crafting intelligent systems with curiosity and code.
                 I build smart, scalable solutions using Large Language Models, Retrieval-Augmented Generation, and modular tools like LangChain and LangGraph. 
-                Whether it’s orchestrating agent flows, experimenting with embeddings, or shipping end-to-end NLP systems — I learn fast, build independently, and think in prompts.
+                Whether it’s orchestrating agent flows, experimenting with embeddings, or shipping end-to-end NLP systems. I learn fast, build independently, and think in prompts.
               </p>
             </div>
 
