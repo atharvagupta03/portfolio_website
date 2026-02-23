@@ -3,7 +3,7 @@ const projects = [
     title: 'RAG-Based Question Answering System',
     tech: ' RAG • Sentence-BERT • Generative AI',
     description:
-      'Built a beginner-friendly QA system using a RAG pipeline. Used Sentence-BERT for semantic retrieval over Wikipedia docs. Explored embedding models and prompt tuning to optimize answer relevance.',
+      'Built a beginner friendly QA system using a RAG pipeline. Used Sentence-BERT for semantic retrieval over Wikipedia docs. Explored embedding models and prompt tuning to optimize answer relevance.',
     links: [
       { name: 'View Project', url: 'https://tinyurl.com/RAG-QA-project' },
       { name: 'GitHub', url: 'https://github.com/atharvagupta03/RAG_based_QA_System' },
@@ -28,7 +28,7 @@ const projects = [
     title: 'Shortify – Full Stack URL Shortener',
     tech: 'React • Node.js • Express.js • MongoDB',
     description:
-      'Developed a full-stack app that generates short URLs from long links. Built an intuitive React frontend and a performant backend using Express and MongoDB. Designed with a clean UI for general users.',
+      'Developed a full stack app that generates short URLs from long links. Built an intuitive React frontend and a performant backend using Express and MongoDB. Designed with a clean UI for general users.',
     links: [
       { name: 'GitHub', url: 'https://github.com/atharvagupta03/shortify-backend' },
     ],
